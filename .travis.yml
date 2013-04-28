@@ -9,6 +9,7 @@ rvm:
   - jruby-19mode
 env:
   - SCRIPT=orequal
+  - SCRIPT=shovel
 script: "ruby $SCRIPT.rb"
 notifications:
   email: false
