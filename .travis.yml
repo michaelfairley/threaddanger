@@ -11,6 +11,7 @@ env:
   - SCRIPT=orequal
   - SCRIPT=orequalio
   - SCRIPT=shovel
+  - SCRIPT=autoload
 script: "ruby $SCRIPT.rb"
 notifications:
   email: false
